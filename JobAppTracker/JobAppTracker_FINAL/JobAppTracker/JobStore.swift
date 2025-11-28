@@ -39,9 +39,18 @@ class JobStore: ObservableObject {
     }
     
     private func loadJobs() {
-        if let data = UserDefaults.standard.data(forKey: jobsKey),
-           let decoded = try? JSONDecoder().decode([Job].self, from: data) {
-            jobs = decoded
+        guard let data = UserDefaults.standard.data(forKey: jobsKey) else {
+            jobs = []
+            return
+        }
+        
+        do {
+            jobs = try JSONDecoder().decode([Job].self, from: data)
+        } catch {
+            print("Failed to decode jobs: \(error)")
+            jobs = []
+            // Clear corrupted data
+            UserDefaults.standard.removeObject(forKey: jobsKey)
         }
     }
 }

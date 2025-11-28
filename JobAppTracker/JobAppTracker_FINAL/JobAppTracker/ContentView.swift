@@ -13,7 +13,7 @@ enum ViewMode: String, CaseIterable {
 }
 
 struct ContentView: View {
-    @StateObject private var jobStore = JobStore()
+    @EnvironmentObject var jobStore: JobStore
     @StateObject private var uiSettings = UISettings()
     @State private var showingAddJob = false
     @State private var selectedJob: Job?

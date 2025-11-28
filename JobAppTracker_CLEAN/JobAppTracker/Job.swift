@@ -113,29 +113,35 @@ struct Job: Identifiable, Codable {
     }
     
     enum JobStatus: String, Codable, CaseIterable {
+        case saved = "Saved"
         case applied = "Applied"
         case interviewing = "Interviewing"
         case offer = "Offer"
         case rejected = "Rejected"
         case accepted = "Accepted"
+        case withdrawn = "Withdrawn"
         
         var color: String {
             switch self {
+            case .saved: return "gray"
             case .applied: return "blue"
             case .interviewing: return "orange"
             case .offer: return "green"
             case .rejected: return "red"
             case .accepted: return "purple"
+            case .withdrawn: return "gray"
             }
         }
         
         var icon: String {
             switch self {
+            case .saved: return "bookmark.fill"
             case .applied: return "paperplane.fill"
             case .interviewing: return "person.2.fill"
             case .offer: return "star.fill"
             case .rejected: return "xmark.circle.fill"
             case .accepted: return "checkmark.seal.fill"
+            case .withdrawn: return "arrow.uturn.backward"
             }
         }
     }

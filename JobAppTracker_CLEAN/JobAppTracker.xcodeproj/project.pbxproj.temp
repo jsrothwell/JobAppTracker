@@ -1,0 +1,3 @@
+		F1020 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2020 /* ColorScheme.swift */; };
+		F1021 /* TimelineFullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2021 /* TimelineFullView.swift */; };
+		F1022 /* KanbanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2022 /* KanbanView.swift */; };

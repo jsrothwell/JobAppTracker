@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1001 /* JobAppTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2001 /* JobAppTrackerApp.swift */; };
+		F1002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2002 /* ContentView.swift */; };
+		F1003 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2003 /* Job.swift */; };
+		F1004 /* JobStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2004 /* JobStore.swift */; };
+		F1005 /* AddJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2005 /* AddJobView.swift */; };
+		F1006 /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2006 /* JobDetailView.swift */; };
+		F1007 /* EditJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2007 /* EditJobView.swift */; };
+		F1008 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2008 /* TimelineView.swift */; };
+		F1010 /* AttachmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2010 /* AttachmentsView.swift */; };
+		F1011 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2011 /* RemindersView.swift */; };
+		F1014 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2014 /* AnalyticsView.swift */; };
+		F1020 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2020 /* ColorScheme.swift */; };
+		F1021 /* TimelineFullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2021 /* TimelineFullView.swift */; };
+		F1022 /* KanbanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2022 /* KanbanView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3001 /* JobAppTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobAppTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2001 /* JobAppTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobAppTrackerApp.swift; sourceTree = "<group>"; };
+		F2002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2003 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		F2004 /* JobStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobStore.swift; sourceTree = "<group>"; };
+		F2005 /* AddJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJobView.swift; sourceTree = "<group>"; };
+		F2006 /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
+		F2007 /* EditJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJobView.swift; sourceTree = "<group>"; };
+		F2008 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		F2010 /* AttachmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentsView.swift; sourceTree = "<group>"; };
+		F2011 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		F2014 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		F2015 /* JobAppTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JobAppTracker.entitlements; sourceTree = "<group>"; };
+		F2020 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		F2021 /* TimelineFullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineFullView.swift; sourceTree = "<group>"; };
+		F2022 /* KanbanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5001 = {
+			isa = PBXGroup;
+			children = (
+				F5002 /* JobAppTracker */,
+				F5003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5002 /* JobAppTracker */ = {
+			isa = PBXGroup;
+			children = (
+				F2001 /* JobAppTrackerApp.swift */,
+				F2002 /* ContentView.swift */,
+				F2003 /* Job.swift */,
+				F2004 /* JobStore.swift */,
+				F2005 /* AddJobView.swift */,
+				F2006 /* JobDetailView.swift */,
+				F2007 /* EditJobView.swift */,
+				F2008 /* TimelineView.swift */,
+				F2010 /* AttachmentsView.swift */,
+				F2011 /* RemindersView.swift */,
+				F2014 /* AnalyticsView.swift */,
+				F2020 /* ColorScheme.swift */,
+				F2021 /* TimelineFullView.swift */,
+				F2022 /* KanbanView.swift */,
+				F2015 /* JobAppTracker.entitlements */,
+			);
+			path = JobAppTracker;
+			sourceTree = "<group>";
+		};
+		F5003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3001 /* JobAppTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6001 /* JobAppTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7001 /* Build configuration list for PBXNativeTarget "JobAppTracker" */;
+			buildPhases = (
+				F8001 /* Sources */,
+				F4001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JobAppTracker;
+			productName = JobAppTracker;
+			productReference = F3001 /* JobAppTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = F7002 /* Build configuration list for PBXProject "JobAppTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5001;
+			productRefGroup = F5003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6001 /* JobAppTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1001 /* JobAppTrackerApp.swift in Sources */,
+				F1002 /* ContentView.swift in Sources */,
+				F1003 /* Job.swift in Sources */,
+				F1004 /* JobStore.swift in Sources */,
+				F1005 /* AddJobView.swift in Sources */,
+				F1006 /* JobDetailView.swift in Sources */,
+				F1007 /* EditJobView.swift in Sources */,
+				F1008 /* TimelineView.swift in Sources */,
+				F1010 /* AttachmentsView.swift in Sources */,
+				F1011 /* RemindersView.swift in Sources */,
+				F1014 /* AnalyticsView.swift in Sources */,
+				F1020 /* ColorScheme.swift in Sources */,
+				F1021 /* TimelineFullView.swift in Sources */,
+				F1022 /* KanbanView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F9001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F9003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = JobAppTracker/JobAppTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = JobAppTracker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobapptracker.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F9004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = JobAppTracker/JobAppTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = JobAppTracker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobapptracker.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7001 /* Build configuration list for PBXNativeTarget "JobAppTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9003 /* Debug */,
+				F9004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7002 /* Build configuration list for PBXProject "JobAppTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9001 /* Debug */,
+				F9002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0001 /* Project object */;
+}
